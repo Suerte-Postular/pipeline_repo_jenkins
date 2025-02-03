@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo "Run build"
+        bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "sh run_build_script.sh"'
+        bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "sh run_windows_test.sh"'
       }
     }
     stage('Test') {
