@@ -1,2 +1,2 @@
 #! /bin/bash
-echo "Run Linux Tests"
+echo "Run Windows Tests"
